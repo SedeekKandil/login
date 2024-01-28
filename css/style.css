@@ -1,0 +1,45 @@
+body{
+    background-color: #24353F;
+    font-family: Helvetica;
+}
+
+.sign-up h1{
+    color: #17A2B8 ;
+    
+}
+
+::placeholder{
+    color: #909597 !important;
+}
+
+.sign-up button:hover{
+    color: white !important;
+}
+
+.sign-up a:hover{
+    text-decoration-line: underline !important;
+}
+
+.form-control:focus {
+     border-color: none; 
+     box-shadow: none; 
+}
+
+.sign-up .container{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+nav h4{
+    cursor: pointer;
+} 
+
+nav a{
+    border: #FFC107 1px solid;
+    border-radius: 5px;
+    transition: all .2s;
+}
+
+nav a:hover{
+    background-color: #FFC107;
+    
+}
